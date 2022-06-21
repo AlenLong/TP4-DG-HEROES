@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-
-/* index */
+/*#region index*/
 
 .bodycolor{
     background-color: rgb(77, 77, 77);
@@ -61,12 +60,10 @@ a:hover{
 a:active{
     color: rgb(0, 47, 255);
 }
+/*#endregion*/
 
 
-
- /* plantilla heroes */ 
-
-
+ /*#region plantilla heroes */ 
 
 body{
     background-color: #bfbfbf;
@@ -125,9 +122,9 @@ h2{
     margin-top: 0.2%;
     margin-bottom: 0.2%;
 }
+/*#endregion*/
 
-
-/* *** Medias Queries*** */
+/*#region medias queries */
 
 
 @media screen and (min-width:425px) and (max-width: 920px){
@@ -202,3 +199,5 @@ h2{
         object-fit: cover;
     }
 }
+
+/* #endregion */
